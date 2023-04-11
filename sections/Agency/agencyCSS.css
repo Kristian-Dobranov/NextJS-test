@@ -1,0 +1,118 @@
+/* Font Family */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+/* Section Container */
+#agency__selection {
+  font-family: "Poppins", sans-serif;
+  margin-top: 1.2rem;
+  padding: 1.2rem;
+}
+
+/* Section Title */
+#agency__selection .section__title {
+  text-align: center;
+  font-size: 2.9rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin: 0;
+}
+
+/* Section Subtitle */
+#agency__selection .section__subtitle {
+  color: #3c3c3c;
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: 500;
+  margin: 0;
+}
+
+/* Agency Selection Image + Cards Container */
+#agency__selection .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 5rem;
+  background-image: url(./images/background.png);
+}
+
+/* Image Container */
+#agency__selection .container .img__container {
+  width: 400px;
+  height: 700px;
+  background-image: url(./images/video.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  border-radius: 1rem;
+
+}
+
+/* Cards Container */
+#agency__selection .container .cards {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+/* Card Styles */
+#agency__selection .container .card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 3rem;
+  padding: 2rem;
+  width: 400px;
+  height: 100px;
+  background-color: #f9f9f9;
+  border-radius: 1rem;
+}
+
+/* Card Title Boldness */
+#agency__selection .container .card .card__title {
+  font-weight: 600;
+}
+
+/* Removing margin from the title and paragraph */
+#agency__selection .container .card .card__title,
+.card__para {
+  margin: 0;
+}
+
+/* Changing the paragraph width on card[1] */
+#agency__selection .container .card:nth-child(1) .card__para {
+  width: 250px;
+}
+
+/* Changing the paragraph width on card[2] */
+#agency__selection .container .card:nth-child(2) .card__para {
+  width: 290px;
+}
+
+/* Changing the paragraph width on card[3] */
+#agency__selection .container .card:nth-child(3) .card__para {
+  width: 310px;
+}
+
+/* Changing the Container width on card[2] */
+#agency__selection .container .card:nth-child(2) {
+  padding: 2rem;
+  width: 430px;
+  height: 100px;
+  background-color: #f9f9f9;
+}
+
+/* Changing the Container width on card[3] */
+#agency__selection .container .card:nth-child(3) {
+  padding: 2rem;
+  width: 460px;
+  height: 100px;
+  background-color: #f9f9f9;
+  border: 2px solid #4995f8;
+}
+
+/* Changing the title color on card[3] */
+#agency__selection .container .card:nth-child(3) .card__title {
+  color: #4995f8;
+  text-decoration: underline;
+}
